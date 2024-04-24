@@ -91,14 +91,14 @@
     /* color-1(#5F9295)
      * color-2(#2D2327)
      */
-    --color-1                      : hsla(183, 22%, 48%, 1);
+    --color-1                      : #0d0f0f;
     --color-2                      : hsla(336, 13%, 16%, 1);
 
     /* theme color variations
      */
     --color-1-lighter              : hsla(183, 22%, 68%, 1);
     --color-1-light                : hsla(183, 22%, 58%, 1);
-    --color-1-dark                 : hsla(183, 22%, 38%, 1);
+    --color-1-dark                 : #0d0f0f;
     --color-1-darker               : hsla(183, 22%, 28%, 1);
 
     --color-2-lighter              : hsla(336, 13%, 36%, 1);
@@ -168,13 +168,13 @@
 
     /* preloader
      */
-    --color-preloader-bg           : #CFE9C3;
+    --color-preloader-bg           : #D0B4B4;
     --color-loader                 : var(--color-text-dark);
     --color-loader-light           : var(--color-1-lighter);
 
     /* others
      */
-    --color-body                   : #CFE9C3;
+    --color-body                   : #D0B4B4;
     --color-border                 : rgba(0, 0, 0, .08);
     --border-radius                : 3px;
 }
@@ -1851,7 +1851,7 @@ img,
 }
 
 #loader {
-    background-color : var(--color-loader-light);
+    background-color : #a5a5a5;
 }
 
 @-webkit-keyframes line {
@@ -2125,8 +2125,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background   : var(--color-btn-primary);
-    border-color : var(--color-btn-primary);
+    background   : #a5a5a5;
+    border-color : #a5a5a5;
     color        : var(--color-btn-primary-text);
 }
 
@@ -2173,7 +2173,7 @@ button.btn--stroke {
     background  : transparent !important;
     font-weight : 700;
     border      : 2px solid var(--color-btn-stroke);
-    color       : var(--color-btn-stroke-text);
+    color       : var(--color-text);
 }
 
 .btn--stroke:focus,
