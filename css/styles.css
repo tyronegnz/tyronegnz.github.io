@@ -168,13 +168,13 @@
 
     /* preloader
      */
-    --color-preloader-bg           : #D0B4B4;
+    --color-preloader-bg           : rgba(243,218,161,255);
     --color-loader                 : var(--color-text-dark);
     --color-loader-light           : var(--color-1-lighter);
 
     /* others
      */
-    --color-body                   : #D0B4B4;
+    --color-body                   : rgba(243,218,161,255);
     --color-border                 : rgba(0, 0, 0, .08);
     --border-radius                : 3px;
 }
